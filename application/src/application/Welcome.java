@@ -26,14 +26,16 @@ public class Welcome {
 				break;
 			default:
 				System.out.println("Invalid");
-				
+				System.out.println("enter a valid input");
 			}
 		}
-			System.out.println("you wanna Start again press 1");
+			
+			System.out.println("enter any number to continue");
 			int n=sc.nextInt();
-			if(n==1) {
+			if(n>=1) {
 				Welcome.welcomeScreen();
 			}
+			
 			
 			
 	}

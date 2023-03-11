@@ -14,13 +14,13 @@ public class Operations {
 		Collection.addInput(str);
 		}
 	else if(S==2) {
-		System.out.println("Enter te file name to be remove :");
+		System.out.println("Enter the file name to be remove :");
 		//Scanner s2=new Scanner(System.in);
 		String t = s1.nextLine();
 		Collection.removeInput(t);
 		}
 	else if(S==3) {
-		System.out.println("Enter te file name to search :");
+		System.out.println("Enter the file name to search :");
 		//Scanner s3=new Scanner(System.in);
 		String st =s1.nextLine();
 		Collection.searchInput(st);
