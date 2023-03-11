@@ -6,24 +6,27 @@ public class Operations {
 	static void function() {
 	Scanner s=new Scanner(System.in);
 	int S=s.nextInt();
-	switch(S) {
-	case 1:
+	Scanner s1=new Scanner(System.in);
+	if(S==1) {
 		System.out.println("Enter filename to add");
-		String str=s.next();
+		//Scanner s1=new Scanner(System.in);
+		String str=s1.nextLine();
 		Collection.addInput(str);
-		break;
-	case 2:
+		}
+	else if(S==2) {
 		System.out.println("Enter te file name to be remove :");
-		String st = s.next();
-		Collection.removeInput(st);
-		break;
-	case 3:
+		//Scanner s2=new Scanner(System.in);
+		String t = s1.nextLine();
+		Collection.removeInput(t);
+		}
+	else if(S==3) {
 		System.out.println("Enter te file name to search :");
-		String s1 =s.next();
-		Collection.searchInput(s1);
-		break;
-	default:
-		System.out.println("Invalid");
+		//Scanner s3=new Scanner(System.in);
+		String st =s1.nextLine();
+		Collection.searchInput(st);
 	}
+	else
+		System.out.println("Invalid");
+	
 
 }}

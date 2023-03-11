@@ -4,9 +4,10 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Welcome {
+	
 	public static void welcomeScreen() throws Exception {
-//		System.out.println("Welcome to Company Locker's pvt ltd");
-		//		System.out.println("Developer:Yedulla Akanksha,Emp id:10850");
+		System.out.println("Welcome to Company Locker's pvt ltd");
+			System.out.println("Developer:Yedulla Akanksha,Emp id:10850");
 			Scanner sc = new Scanner(System.in); {
 			System.out.println("enter your choice");
 			System.out.println("1.sorting\n2.file operations\n3.exit");
